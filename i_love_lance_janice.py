@@ -1,16 +1,14 @@
 #!/usr/bin/python
-from __future__ import print_function
 
 def answer(s):
     key_list = [chr(i) for i in range(ord('a'), ord('z') + 1)]
     value_list = [chr(j) for j in range(ord('z'), ord('a') - 1, -1)]
     my_dict = dict(list(zip(key_list, value_list)))
-
     decrypt = []
 
     for character in s:
         decrypt.append(my_dict[character] if character in my_dict else character)
-    return ''.join(decrypt)
+    return (''.join(decrypt))
 
 
 test_1 = "wrw blf hvv ozhg mrtsg'h vkrhlwv?"
