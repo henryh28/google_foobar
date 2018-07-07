@@ -11,6 +11,7 @@ Has to be done in Python 2.7.6 instead of Python 3.x
 | find_the_access_codes.py               | Find number of "lucky triplets" numbers such that y/x and z/y from list argument           |
 | fuel_injection_perfection_memoize.py   | Initial, memoized approach to solving the shortest path to 1 problem                       |
 | fuel_injection_perfection_bit_manip.py | Improved approach to the same problem, solved using bit manipulation                       |
+| doomsday_fuel.py                       | Mathematical exercise with Absorbing Markov Chains and Matrix inversion                    |
 
 
 ## Author
